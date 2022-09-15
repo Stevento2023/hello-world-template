@@ -2,13 +2,9 @@ public class helloworldtemplate
 {
     public static void main(String[] args)
     {
-        int i = 10;
-        int f = 0;
-        f = i+f;
-        boolean flag = true;
-        flag = !false;
-        i += 1;
-        System.out.println(i);
-        System.out.println(f);
+        String string1 = "I am a string";
+        String string2 = string1;
+        String string3 = "I am also a string";
+        boolean stringsEqual = string1.compareTo(string3);
     }
 }
